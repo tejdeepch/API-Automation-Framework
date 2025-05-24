@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test  preserve-order="true" name="C:/Users/Lenovo/IdeaProjects/ApiAutomation">
+        <classes>
+            <class name="com.api.test.LoginAPItest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+            <class name="com.api.test.ProfileModifyTest">
+                <methods>
+                    <include name="profileMod"/>
+                </methods>
+            </class>
+            <class name="com.api.test.SignupTest">
+                <methods>
+                    <include name="signupTestmethod"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
